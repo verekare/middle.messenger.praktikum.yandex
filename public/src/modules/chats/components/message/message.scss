@@ -1,0 +1,24 @@
+@use 'base' as *;
+
+.message-block {
+    display: flex;
+    max-width: 500px;
+    margin: 5px;
+    border: 2px solid $main-color;
+
+    font-size: 0.8rem;
+    text-transform: initial;
+
+    .avatar {
+        width: 30px;
+        padding: 0;
+        margin: 0;
+        border-right: 2px solid $main-color;
+        object-fit: cover;
+    }
+
+    text-block {
+        display: inline-block;
+        padding: 8px;
+    }
+}
